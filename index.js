@@ -103,4 +103,26 @@
  //concat: sirve para las string= ej: numero = "1" numero2 = "2" , numero.concat(numero2); = 12 
 // no sirve para numeros
 
-alert("Hola");
+//Código en practica
+//Resultados recientes : "null"
+// let btn = document.getElementById("boton");
+
+// var btn1 = document.addEventListener("Hola, como va" function() {
+//      prompt("Escribe tu contraseña ");
+
+// } );
+
+let text = "Hola, se bienvenido a nuestro sitio ";
+
+let text2 = "Por favor Identificate ";
+
+let text3 = prompt(text2);
+
+function view (){
+
+  alert(text + text3)
+
+};
+
+  
+ document.write(view());
