@@ -1,3 +1,5 @@
+//capitulo 1//
+
 //Practica
 
 //Tipos de datos: string, boolean, number.
@@ -112,17 +114,50 @@
 
 // } );
 
-let text = "Hola, se bienvenido a nuestro sitio ";
+// ej: 
 
-let text2 = "Por favor Identificate ";
+// let text = "Hola, se bienvenido a nuestro sitio ";
 
-let text3 = prompt(text2);
+// let text2 = "Por favor Identificate ";
 
-function view (){
+// let text3 = prompt(text2);
 
-  alert(text + text3)
+// function view (){
 
-};
+//   alert(text + text3)
+
+// };
 
   
- document.write(view());
+//  document.write(view());
+
+
+ //tamplates strigs : ${Nombre} y backtliks : ``;
+
+//  los tamplates de string sirven para evitar muchos bugs en el código
+
+
+//operadores de compración y operadores lógicos
+//Los operadores de comparacion comparan expresioes y devuleven en valores bolleanos que representa la deralicion de sus valores
+
+
+//operaciones de comparacion: == (Compara si solo los valores son iguales) , ===(describe apariencias exactas), !==(extrictamente si no es el mismo tipo de dato), !=(indetifica si los valores son distintos), <(menor), > (mayor) , >=(mayor o igual), <(menot oigual), 
+
+// let numero = 13;
+// let numero2 = 12;
+
+// document.write(numero != numero2);
+
+
+// operadores lógicos: &&, ||, !
+// &&( y) (si las dos son true o false devuleve) ||()
+
+let x = 12;
+let y = 20;
+
+var res = x < y;
+
+var res2 = x != y;
+
+document.write(res && res2);
+
