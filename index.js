@@ -36,8 +36,7 @@
 
 //Undefined; es un dato que esta declarado pero no tiene valor
 
-var m = "Buenas ";
-let l = m + " Senior";
+
 
 
 
@@ -51,15 +50,15 @@ let l = m + " Senior";
 
 
 
-function open (){
+// function open (){
 
-  alert(l)
-};
+//   alert(l)
+// };
 
 
 // open();
 
-var x = null;
+// var x = null;
 
 //Prompt: es un sitema de alerta para poder escribir en el campo
 
@@ -75,12 +74,12 @@ var x = null;
 
 // var text = "Bienvenido ";
 
-// function saludo(){
+// function Enter(){
 
 //     alert( text + reg )  
 // };
 
-// saludo();
+// enter();
 
 
 
@@ -94,8 +93,14 @@ var x = null;
 
 //Asignaciones: +=, -=, /=, %=, (Exponencial)**=; (Increment) ++ ; (Decrement) --, subtracción: -, 
 
-let prueba = 10;
+
+//ej:
 
 
 
-document.write(prueba);
+
+
+ //concat: sirve para las string= ej: numero = "1" numero2 = "2" , numero.concat(numero2); = 12 
+// no sirve para numeros
+
+alert("Hola");
