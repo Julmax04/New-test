@@ -161,3 +161,15 @@ var res2 = x != y;
 
 document.write(res && res2);
 
+//Pruebas:
+
+// let text = "Por favor registrase para navegar ";
+// let text2 = "Bienvenido a nuestro sitio!!, Muchas gracias!! ";
+
+// function imprime(){
+
+//     alert(text2 + text);
+
+// };
+
+// imprime();
