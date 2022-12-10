@@ -166,13 +166,13 @@
 let text = "Por favor registrase para navegar ";
 let text2 = "Bienvenido a nuestro sitio!!, Muchas gracias!! ";
 
- var text3 = prompt()
+ var text3 = prompt(text);
 
  function imprime(){
  
  
 
-    alert(text2 + text);
+    alert(text2 + text3);
 
 };
 
