@@ -176,4 +176,4 @@ let text2 = "Bienvenido a nuestro sitio!!, Muchas gracias!! ";
 };
 
 
-Document.write(imprime());
+
