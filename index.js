@@ -171,9 +171,11 @@ let text2 = "Bienvenido a nuestro sitio!!, Muchas gracias!! ";
  function imprime(){
  
  
-
     alert(text2 + text3);
 
 };
 
 Document.write(imprime());
+
+
+
