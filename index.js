@@ -152,24 +152,28 @@
 // operadores lógicos: &&, ||, !
 // &&( y) (si las dos son true o false devuleve) ||()
 
-let x = 12;
-let y = 20;
+// let x = 12;
+// let y = 20;
 
-var res = x < y;
+// var res = x < y;
 
-var res2 = x != y;
+// var res2 = x != y;
 
-document.write(res && res2);
+// document.write(res && res2);
 
-//Pruebas:
+// //Pruebas:
 
-// let text = "Por favor registrase para navegar ";
-// let text2 = "Bienvenido a nuestro sitio!!, Muchas gracias!! ";
+let text = "Por favor registrase para navegar ";
+let text2 = "Bienvenido a nuestro sitio!!, Muchas gracias!! ";
 
-// function imprime(){
+ var text3 = prompt()
 
-//     alert(text2 + text);
+ function imprime(){
+ 
+ 
 
-// };
+    alert(text2 + text);
 
-// imprime();
+};
+
+Document.write(imprime());

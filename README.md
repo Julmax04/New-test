@@ -2,7 +2,7 @@ Effective date: 2023-03-22
 
 1. Introduction
 
-Welcome to MSP.
+*Welcome to MSP.*
 
 MSP (“us”, “we”, or “our”) operates www.MasterSoftwareProgramers.com (hereinafter referred to as “Service”).
 
