@@ -163,17 +163,36 @@
 
 // //Pruebas:
 
-let text = "Por favor registrase para navegar ";
-let text2 = "Bienvenido a nuestro sitio!!, Muchas gracias!! ";
+// let text = "Por favor registrase para navegar ";
+// let text2 = "Bienvenido a nuestro sitio!!, Muchas gracias!! ";
 
- var text3 = prompt(text);
+//  var text3 = prompt(text);
 
- function imprime(){
+//  function imprime(){
  
  
-    alert(text2 + text3);
+//     alert(text2 + text3);
 
-};
+// };
+
+//prac de operadores logicos
+
+// let num = 25;
+// let num2  = 12;
+
+// let resultado = num < num2 ;
+// let resultado2 = num != num2;
+
+// document.write(!resultado); 
+  
 
 
+// num1 = 12;
+// num2 = 24;
+// num3 = 25;
+// num4 = 92;
+// num5 = 91;
+
+
+//camelcase: significa que cada palabra que empieza es con minuscula y la sengunda palabra es Mayusculas
 
