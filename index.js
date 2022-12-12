@@ -163,17 +163,17 @@
 
 // //Pruebas:
 
-// let text = "Por favor registrase para navegar ";
-// let text2 = "Bienvenido a nuestro sitio!!, Muchas gracias!! ";
+let text = "Por favor registrase para navegar ";
+let text2 = "Bienvenido a nuestro sitio!!, Muchas gracias!! ";
 
-//  var text3 = prompt(text);
+ var text3 = prompt(text);
 
-//  function imprime(){
+ function imprime(){
  
  
-//     alert(text2 + text3);
+    alert(text2 + text3);
 
-// };
+};
 
 //prac de operadores logicos
 
