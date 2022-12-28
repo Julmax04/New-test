@@ -32,6 +32,7 @@
 
 // Datos especiales: null, undefined, nan;
 
+
 //variables var, let y const
 
 
@@ -163,20 +164,23 @@
 
 // //Pruebas:
 
-let text = "Por favor registrase para navegar ";
-let text2 = "Bienvenido a nuestro sitio!!, Muchas gracias!! ";
+// let text = "Por favor registrase para navegar ";
+// let text2 = "Bienvenido a nuestro sitio!!, Muchas gracias!! ";
 
- var text3 = prompt(text);
 
- function imprime(){
+
+//  function imprime() {
+
+//     let text3 = prompt(text);
  
- 
-    alert(text2 + text3);
+//     alert(text2 + text3);
 
-};
+// };
+
+// imprime ()
 
 //prac de operadores logicos
-
+// parseInt(); = (Significa) convertir a entero
 // let num = 25;
 // let num2  = 12;
 
@@ -195,4 +199,49 @@ let text2 = "Bienvenido a nuestro sitio!!, Muchas gracias!! ";
 
 
 //camelcase: significa que cada palabra que empieza es con minuscula y la sengunda palabra es Mayusculas
+
+//Condicionales : if, else if,else
+
+// if = La linea se ejecuta si la expresion es verdadera o false
+// else if = La linea se ejecuta si la linea if no se a ejecutado
+// else = Si ninguna de las dos los lineas anteriores (if, else if) se ejecutan esta lo hará 
+
+// let nombre = "a ";
+
+// function imprime(){
+    
+//     if(nombre == "Facundo "){
+
+//         alert("Tu nombre es facundo ");
+
+//     } else if (nombre == "agustin "){
+           
+//         alert("Tu  nombre es agustin ");
+// }else{
+//     alert("Sos boludo ");
+// }
+// };  
+
+// imprime();
+
+//arrays
+//creacion de un array
+
+let colores = ["Rojo", "azul", "Verde", "Amarillo"];
+
+
+//como imvocamos un elemnto espesicio del array: colores[0] o colores[1] dependiendo en que elemento esta ubicado
+
+//asignacion de un elemento vació dentro de un array
+// document.write(colores[3]);
+
+// let pc = {
+//     nombre : "Dalto pc ",
+//     procesador: "Intel Core I7 ",
+//     ram: "16GB ",
+//     espacio: "1TB "
+// };
+// //Arrays asociativos: 
+// document.write(pc["Dalto pc"]);
+
 
