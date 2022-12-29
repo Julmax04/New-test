@@ -23,8 +23,7 @@ let moneyJuan =  prompt("Ingresa tu monto, juan ");
 //pasar a numeros enteros las string para saber el vuelto de cada uno
 
 moneyCofla = parseInt(moneyCofla);
-moneyPedro = parseInt(moneyCofla);
-moneyJuan = parseInt(moneyCofla);
+
 
 function wiew (){
 
@@ -115,4 +114,3 @@ if(moneyJuan >= 0.6 && moneyJuan <= 1){
 
 }
 
-wiew();

@@ -227,7 +227,7 @@
 //arrays
 //creacion de un array
 
-let colores = ["Rojo", "azul", "Verde", "Amarillo"];
+// let colores = ["Rojo", "azul", "Verde", "Amarillo"];
 
 
 //como imvocamos un elemnto espesicio del array: colores[0] o colores[1] dependiendo en que elemento esta ubicado
@@ -244,4 +244,107 @@ let colores = ["Rojo", "azul", "Verde", "Amarillo"];
 // //Arrays asociativos: 
 // document.write(pc["Dalto pc"]);
 
+
+//for, while, do while, for in, for of
+
+//bucles
+
+//while: es un bucle que se ejecuta constantemente en la repetición, es decir
+//si  preguntamos que una condicion es verdadera al terminar de ejecutarse mandara otra vez a la consulta para constatar si se sigue cumpliendo al condicion
+
+// esto es while
+let numero = 0;
+
+// function prac (){
+    
+//     while(numero <= 5){
+//         numero++;
+//         document.write(numero + "<br>");
+//     }
+// }
+
+// prac();
+
+//la diferencia entre while e if es que, uno pregunta siempre si la condicion en correcta (while) y la ota que una vez consultado se cierra la ejecución(if)
+//Do while:
+
+//el "do" sirve para explicar que hace el código antes de preguntar (while)
+// luego se coloca la condición al final (while)
+//ej:
+
+// function prac2() {
+
+// do{
+//     //Primero presentar lo que queres mostarr
+//     document.write(numero );
+
+//     numero++;
+    
+// }
+
+// while (numero <=5)
+
+
+// };
+
+// prac2();
+
+//Break = Es utilizado para terminar la ejecucion de un codigo o condicion
+
+// ej:
+
+// function prac3() {
+// while (numero < 10000){
+//      numero ++;
+//      document.write(numero);
+
+//     if(numero == 20){
+
+//         break;
+//     }
+// }
+// };
+
+// prac3();
+
+
+//bucles for: se ejecuta las veces que nostros le indiquemos
+
+// su sintaxis es : pasos = se crea una vairables ej: (for (let i = 0;))
+//luego viene la condicion: ej:(for let i = 0; i < 6) y al final la iteracion for (let i = 0; i < 6; i++)
+
+//ej:
+
+// let object = ["casco", "moto", "auto"];
+
+// let numeros = prompt("Escribe un numero ");
+
+
+// function Suma (){
+
+    
+//     if(numeros >= 0){
+//         for(let i = 0; i < object.length; i++){
+//             alert([i]);
+//     }
+// } else{
+
+//     alert("Mama huevo ");
+// }
+// };
+
+// Suma();
+
+
+
+    for (let i = 0; i < 30; i++){
+        
+        if (i == 10){
+            continue;
+        }
+     
+        document.write(i + "<br>");
+    };
+     
+   
 
